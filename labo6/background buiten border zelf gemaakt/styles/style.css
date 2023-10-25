@@ -1,0 +1,15 @@
+#blokinfo{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+#donkeretekst{
+    color: black;
+}
+
+#blokfoto{
+    padding: 10px;
+    background-image: url("../images/clouds.jpg");
+    background-size: cover;
+}

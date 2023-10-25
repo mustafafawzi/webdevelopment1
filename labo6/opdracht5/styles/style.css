@@ -1,0 +1,10 @@
+#metBefore a:before {
+    content: url("../images/logo.jpg");
+}
+
+#metBGimage a{
+    background-image: url("../images/logo.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 40px;
+}
