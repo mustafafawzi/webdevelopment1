@@ -1,0 +1,42 @@
+body {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1#whiteheader {
+    color: white;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+#headerImage {
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+}
+
+nav {
+    background-color: rgb(128, 128, 128);
+}
+
+nav > a {
+    color: green;
+    font-weight: bold;
+}
+
+article h1{
+    margin-top: 5px;
+    padding-top: 30px;
+    text-decoration: underline;
+    font-size: 1.5em;
+    color: dimgrey;
+}
+
+article{
+    background-color: beige;
+}
+
+#sectionWithArticles{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

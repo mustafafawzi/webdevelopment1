@@ -1,0 +1,38 @@
+table {
+    width: fit-content;
+    margin: 0 auto;
+    border: 5px black solid;
+    border-collapse: collapse;
+}
+
+#hoofdding {
+    background-color: rgb(170,170,200);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+tr#dagen {
+    background-color:  rgb(35,37,70);
+    color: rgb(200,190,240) ;
+}
+
+th, td {
+    border: 1px black dotted;
+}
+
+tr > td.vorigeEnVolgendeMaand {
+    background-color: dimgrey;
+}
+
+td:first-child, td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+#vrijeDag{
+    background-color: rgb(250,120,120);
+}
+
+.blauwEnOnderlijnd{
+    color: blue;
+    text-decoration: underline;
+}

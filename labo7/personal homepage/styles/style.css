@@ -1,0 +1,30 @@
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+
+a:hover{
+    color: green;
+}
+
+
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+thead {
+    background-color: green;
+}
+
+.onbekend {
+    background-color: red;
+}
