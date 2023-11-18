@@ -18,6 +18,7 @@ tr#dagen {
 
 th, td {
     border: 1px black dotted;
+
 }
 
 tr > td.vorigeEnVolgendeMaand {

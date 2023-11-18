@@ -1,0 +1,86 @@
+body {
+    width: 95%;
+    margin: auto;
+    font-size: 1.2em;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+    color: rgb(0, 126, 126);
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+#headingWeeklySpecials {
+    color: black;
+}
+
+#headingLemonBreeze {
+    color: red;
+}
+
+#headingChaiChiller {
+    color: pink;
+}
+
+footer {
+    font-size: 50%;
+    clear: both;
+    text-align: center;
+}
+
+#headingBlackBrainBrew {
+    color: mediumpurple;
+}
+
+#weeklySpecials a:hover {
+    background-color: brown;
+}
+
+#weeklySpecials {
+    border: 1px solid rgb(0, 126, 126);
+    text-align: center;
+    padding-right: 5px;
+    background: url("../images/cocktail.gif") repeat-x;
+    width: 30%;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainContent, #weeklySpecials {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#mainContent {
+    width: 70%;
+    float: left;
+    padding: 40px;
+}
+
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: rgb(66, 66, 66);
+    border: 1px dashed white;
+    background: rgb(167, 206, 206) url(../images/background.gif) no-repeat top left;
+}
+
+#bhuddaBar{
+    font-style: italic;
+}
+
+#bhuddaBar > span{
+    font-weight: bold;
+    font-style: normal;
+}
