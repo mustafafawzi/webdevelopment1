@@ -1,0 +1,28 @@
+article{
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 1.25em;
+    padding: 10px;
+}
+
+h2{
+    margin-top: 0;
+}
+
+p{
+    display: inline-block;
+    margin: 0;
+}
+
+img{
+    margin: 10px;
+
+}
+
+article:nth-child(2n+1) img{
+    float: right;
+}
+
+article:nth-child(2n) img{
+    float: left;
+}
