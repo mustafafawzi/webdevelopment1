@@ -1,0 +1,13 @@
+.container-fluid {
+    text-align: center;
+    color: white;
+}
+
+.row > .donker {
+    background-color: black;
+}
+
+.row > div {
+    background-color: blue;
+}
+
