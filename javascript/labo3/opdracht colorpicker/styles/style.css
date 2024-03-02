@@ -1,0 +1,24 @@
+#contentWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    border: 5px grey solid ;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+* {
+    width: fit-content;
+    margin-right: 20px;
+}
+
+#block {
+    border: 1px black solid;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
