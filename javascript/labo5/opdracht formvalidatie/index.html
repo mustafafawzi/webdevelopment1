@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" charset="utf-8"
+            src="scripts/code.js"></script>
+    <title>formvalidatie</title>
+</head>
+<body>
+<form action="" method="post">
+    <div id="voornaamblok">
+        <label for="voornaam">Voornaam</label>
+        <input type="text" id="voornaam" name="voornaam">
+    </div>
+
+    <div>
+        <label for="achternaam">Achternaam</label>
+        <input type="text" id="achternaam" name="achternaam" required>
+    </div>
+
+    <div>
+        <label for="geboortedatum">Geboortedatum</label>
+        <input type="text" required id="geboortedatum" name="geboortedatum">
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="text" required id="email">
+    </div>
+
+    <div>
+        <label for="kinderen">Aantal kinderen</label>
+        <input type="number" id="kinderen" name="aantalKinderen" min="0" maxlength="99">
+    </div>
+
+    <input type="submit" id="valideerBtn">
+</form>
+</body>
+</html>

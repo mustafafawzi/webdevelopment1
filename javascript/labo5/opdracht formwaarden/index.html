@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<form action="" method="post">
+    <div>
+        <label for="roker">Is roker</label>
+        <input type="checkbox" id="roker" name="roker" value="roker">
+    </div>
+
+    <div id="talen">
+        <p>Moedertaal</p>
+
+        <input type="radio" name="moedertaal" value="nederlands" id="nederlands">
+        <label for="nederlands">Nederlands</label>
+
+        <input type="radio" name="moedertaal" value="frans" id="frans">
+        <label for="frans">Frans</label>
+
+        <input type="radio" name="moedertaal" value="engels" id="engels">
+        <label for="engels">Engels</label>
+    </div>
+
+    <div>
+        <label for="buurlanden">Favoriete buurland</label>
+        <select id="buurlanden" name="buurland">
+            <option value="frankrijk">Frankrijk</option>
+        </select>
+    </div>
+
+    <div id="bestellingen">
+        <label for="bestelling">Bestelling</label>
+
+        <select id="bestelling" name="bestelling" size="6" multiple>
+            <option value="aardappelen">aardappelen</option>
+            <option value="brood">brood</option>
+            <option value="melk">melk</option>
+            <option value="biefstuk">biefstuk</option>
+            <option value="chips">chips</option>
+            <option value="krant">krant</option>
+        </select>
+    </div>
+
+    <input type="button" name="result" id="resultBtn" value="Toon resultaat">
+</form>
+
+
+<script type="text/javascript" charset="utf-8"
+        src="scripts/code.js"></script>
+</body>
+</html>

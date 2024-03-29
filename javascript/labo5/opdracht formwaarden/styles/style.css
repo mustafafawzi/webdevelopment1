@@ -1,0 +1,14 @@
+#talen > * {
+    display: inline-block;
+}
+
+#bestellingen {
+    display: flex;
+    align-items: baseline;
+}
+
+#bestellingen label {
+    margin-right: 10px;
+}
+
+

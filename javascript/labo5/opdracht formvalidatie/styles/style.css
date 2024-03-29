@@ -1,0 +1,11 @@
+div {
+    margin-bottom: 10px;
+}
+
+.borderError {
+    border: 1px solid red;
+}
+
+.textError {
+    color: red;
+}
